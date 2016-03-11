@@ -6,7 +6,7 @@ Go.Farbfeld
 About
 -----
 
-This is Go implementation of [`farbfeld` image format](http://git.2f30.org/farbfeld/).
+This is Go implementation of [`farbfeld` image format](http://git.suckless.org/farbfeld/).
 
 It uses Go's `image` interface, similar to `image/png`.
 
