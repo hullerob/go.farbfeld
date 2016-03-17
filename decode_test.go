@@ -45,7 +45,7 @@ func TestDecodeImage(t *testing.T) {
 				test.descr, dx, dy, test.w, test.h)
 		}
 		if bytes.Compare(test.img, nrgba64.Pix) != 0 {
-			t.Errorf("%s: image data differs")
+			t.Errorf("%s: image data differs", test.descr)
 		}
 	}
 }
