@@ -1,10 +1,10 @@
 package main
 
 import (
-	_ "code.google.com/p/go.image/bmp"
-	_ "code.google.com/p/go.image/tiff"
-	_ "code.google.com/p/go.image/webp"
 	"github.com/hullerob/go.farbfeld"
+	_ "golang.org/x/image/bmp"
+	_ "golang.org/x/image/tiff"
+	_ "golang.org/x/image/webp"
 	"image"
 	_ "image/gif"
 	_ "image/jpeg"
