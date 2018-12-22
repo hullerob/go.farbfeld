@@ -2,7 +2,7 @@
 
 // Package farbfeld implements a farbfeld decoder and encoder.
 //
-// The farbfeld specification can be found at http://git.2f30.org/farbfeld/
+// The farbfeld specification can be found at http://git.suckless.org/farbfeld/
 package imagefile
 
 import (
